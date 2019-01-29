@@ -13,32 +13,8 @@ import org.json.JSONObject;
 public class DatabaseManager {
 
 	    
-//    public static JSONArray getJSONFromResultSet(ResultSet rs,String keyNames) {
-//        
-//    List json = new ArrayList();
-//    if(rs!=null)
-//    {
-//        try {
-//            ResultSetMetaData metaData = rs.getMetaData();
-//            while(rs.next())
-//            {
-//                Map<String,Object> columnMap = new HashMap<String, Object>();
-//                for(int columnIndex=1;columnIndex<=metaData.getColumnCount();columnIndex++)
-//                {
-//                    if(rs.getString(metaData.getColumnName(columnIndex))!=null)
-//                        columnMap.put(metaData.getColumnLabel(columnIndex),     rs.getString(metaData.getColumnName(columnIndex)));
-//                    else
-//                        columnMap.put(metaData.getColumnLabel(columnIndex), "");
-//                }
-//                json.add(columnMap);
-//            }
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
-//     }
-//     return JSONValue.toJSONString(json);
-//    }
-//	
+
+	
 	
 	public static JSONArray getJSONFromResultSet(ResultSet rs) {
   
