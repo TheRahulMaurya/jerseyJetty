@@ -1,4 +1,4 @@
-package org.rahul.lattice.jerseyJetty.dao.manager;
+package org.rahul.lattice.jerseyJetty;
 
 import java.io.File;
 
