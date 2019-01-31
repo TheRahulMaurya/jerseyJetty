@@ -82,15 +82,15 @@ public class DatabaseManager {
 	            Connection conn = DBConnectionManager.getInstance().getConnection();
 	            conn.setAutoCommit(false);
 	            Statement stmt = conn.createStatement();
-	            System.out.println("--------------1----------------");
+	           // System.out.println("--------------1----------------");
 	         
 	           resultSet = stmt.executeQuery( SELECT_QUERY );
 	           
-	           System.out.println("--------------1----------------");
+	           //System.out.println("--------------1----------------");
 	      
 	           jsonArray = getJSONFromResultSet(resultSet);
 	           
-	           System.out.println("--------------jsonArray----------------"+jsonArray);
+	           //System.out.println("--------------jsonArray----------------"+jsonArray);
 	           resultSet.close();
 	           stmt.close();
 	           conn.commit();

@@ -34,17 +34,17 @@ Class-Path: org/glassfish/jersey/containers/jersey-container-servlet-c
  at-jni/8.0.28/tomcat-jni-8.0.28.jar org/apache/tomcat/tomcat-coyote/8
  .0.28/tomcat-coyote-8.0.28.jar org/apache/tomcat/tomcat-util-scan/8.0
  .28/tomcat-util-scan-8.0.28.jar org/apache/tomcat/tomcat-util/8.0.28/
- tomcat-util-8.0.28.jar org/eclipse/jetty/jetty-server/9.2.3.v20140905
- /jetty-server-9.2.3.v20140905.jar javax/servlet/javax.servlet-api/3.1
- .0/javax.servlet-api-3.1.0.jar org/eclipse/jetty/jetty-http/9.2.3.v20
- 140905/jetty-http-9.2.3.v20140905.jar org/eclipse/jetty/jetty-io/9.2.
- 3.v20140905/jetty-io-9.2.3.v20140905.jar org/eclipse/jetty/jetty-serv
- let/9.2.3.v20140905/jetty-servlet-9.2.3.v20140905.jar org/eclipse/jet
- ty/jetty-security/9.2.3.v20140905/jetty-security-9.2.3.v20140905.jar 
- org/glassfish/jersey/containers/jersey-container-jetty-http/2.26/jers
- ey-container-jetty-http-2.26.jar org/eclipse/jetty/jetty-util/9.4.3.v
- 20170317/jetty-util-9.4.3.v20170317.jar org/eclipse/jetty/jetty-conti
- nuation/9.4.3.v20170317/jetty-continuation-9.4.3.v20170317.jar org/gl
+ tomcat-util-8.0.28.jar org/glassfish/jersey/containers/jersey-contain
+ er-jetty-http/2.26/jersey-container-jetty-http-2.26.jar org/eclipse/j
+ etty/jetty-continuation/9.4.3.v20170317/jetty-continuation-9.4.3.v201
+ 70317.jar org/eclipse/jetty/jetty-util/9.4.0.v20161208/jetty-util-9.4
+ .0.v20161208.jar org/eclipse/jetty/jetty-servlet/9.4.0.v20161208/jett
+ y-servlet-9.4.0.v20161208.jar org/eclipse/jetty/jetty-security/9.4.0.
+ v20161208/jetty-security-9.4.0.v20161208.jar org/eclipse/jetty/jetty-
+ server/9.4.0.v20161208/jetty-server-9.4.0.v20161208.jar javax/servlet
+ /javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar org/eclipse/jett
+ y/jetty-http/9.4.0.v20161208/jetty-http-9.4.0.v20161208.jar org/eclip
+ se/jetty/jetty-io/9.4.0.v20161208/jetty-io-9.4.0.v20161208.jar org/gl
  assfish/jersey/inject/jersey-hk2/2.26/jersey-hk2-2.26.jar org/glassfi
  sh/hk2/hk2-locator/2.5.0-b42/hk2-locator-2.5.0-b42.jar org/glassfish/
  hk2/external/aopalliance-repackaged/2.5.0-b42/aopalliance-repackaged-
